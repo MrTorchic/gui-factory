@@ -19,13 +19,13 @@ unlock:setBackgroundColor(colors.green)
 unlock:setBackgroundColor(1,1)
 unlock:onClick(function(button, frame, event, x, y)
     local deactivate = s:add(gui.button("Deactivate")
-    deactivate:setTextColor(colors.white)
-    deactivate:setBackgroundColor(colors.red)
-    deactivate:setPosition(1,1)
-    deactivate:onClick(function(button,frame,event,x,y)
+     deactivate:setTextColor(colors.white)
+     deactivate:setBackgroundColor(colors.red)
+     deactivate:setPosition(1,1)
+     deactivate:onClick(function(button,frame,event,x,y)
     
     )
-)
+end)
 end)
 
 
